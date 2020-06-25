@@ -8,10 +8,17 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ThreadPoolExecutor;
 
+/**
+ * 异步线程池配置
+ */
 @Slf4j
 @Configuration
 public class ExecutorConfig {
 
+    /**
+     * 初始化线程池配置，生成实体
+     * @return
+     */
     @Bean("asyncExecutor")
     public Executor asyncExecutor() {
         log.info("start init asyncExecutor");
