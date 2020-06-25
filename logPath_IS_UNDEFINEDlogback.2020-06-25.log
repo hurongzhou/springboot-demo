@@ -1,0 +1,99 @@
+13:02:30.097 logback [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-HFTTOD6 with PID 13104 (C:\Users\hurong\IdeaProjects\first-demo\target\classes started by hurong in C:\Users\hurong\IdeaProjects\first-demo)
+13:02:30.103 logback [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:02:32.553 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:02:32.575 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:02:32.576 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:02:32.577 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+13:02:32.787 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:02:32.788 logback [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2550 ms
+13:02:33.194 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:02:33.520 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:02:33.588 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:02:33.608 logback [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.706 seconds (JVM running for 5.876)
+13:03:07.578 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:03:07.578 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:03:07.592 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+13:03:07.631 logback [http-nio-8080-exec-1] INFO  com.example.demo.TestController - Hello World!
+13:15:41.240 logback [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-HFTTOD6 with PID 11900 (C:\Users\hurong\IdeaProjects\first-demo\target\classes started by hurong in C:\Users\hurong\IdeaProjects\first-demo)
+13:15:41.246 logback [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:15:44.531 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:15:44.546 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:15:44.547 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:15:44.548 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+13:15:44.732 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:15:44.732 logback [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3319 ms
+13:15:45.148 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:15:45.557 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:15:45.621 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+13:15:45.663 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:15:45.676 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+13:15:45.676 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:15:45.689 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+13:15:45.690 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+13:15:45.707 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+13:15:45.718 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+13:16:46.770 logback [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-HFTTOD6 with PID 9712 (C:\Users\hurong\IdeaProjects\first-demo\target\classes started by hurong in C:\Users\hurong\IdeaProjects\first-demo)
+13:16:46.779 logback [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:16:50.615 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:16:50.639 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:16:50.641 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:16:50.641 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+13:16:50.836 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:16:50.837 logback [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3919 ms
+13:16:51.205 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:16:51.503 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:16:51.534 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+13:16:51.535 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:16:51.542 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+13:16:51.542 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:16:51.551 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+13:16:51.552 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+13:16:51.566 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+13:16:51.570 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+13:20:27.254 logback [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-HFTTOD6 with PID 7672 (C:\Users\hurong\IdeaProjects\first-demo\target\classes started by hurong in C:\Users\hurong\IdeaProjects\first-demo)
+13:20:27.270 logback [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:20:30.101 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:20:30.127 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:20:30.128 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:20:30.129 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+13:20:30.382 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:20:30.382 logback [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2958 ms
+13:20:30.873 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:20:31.262 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:20:31.344 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:20:31.368 logback [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.383 seconds (JVM running for 6.82)
+13:21:00.210 logback [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:21:00.211 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:21:00.224 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+13:21:00.263 logback [http-nio-8080-exec-2] INFO  com.example.demo.TestController - Hello World!
+13:24:20.576 logback [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
